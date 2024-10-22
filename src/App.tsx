@@ -65,7 +65,7 @@ export const App: React.FC = () => {
         : `${completedTodos} items left`;
 
     return message;
-  }, [visibleTodos]);
+  }, [todos]);
 
   useEffect(() => {
     getTodos()
